@@ -1,0 +1,69 @@
+
+        .hamburger{
+        position: fixed;
+        z-index: 100;
+        top: 1rem; 
+        right: 1rem;
+        padding: 4px;
+        border: block solid 1px;
+        background: white;
+        cursor: pointer;
+        }
+        .closeIcon{
+         display: none;
+        }
+        .menu{
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        z-index: 99;
+         background: black;
+        color: white;
+        list-style: none;
+         padding-top: 4px;
+        }
+        .showMenu{
+        transform: translateY(0);
+    
+        }
+        .banner{
+            width: 1366px; background-color:maroon;
+            height: 250; color: lavender;
+        }
+        .nar-bar{
+            height: 150px; width: 1366px; color: aqua; background-color:skyblue;
+            padding-right: 6px;
+        }
+        .container{
+            width: 1366px; height: 900px; color:blueviolet ;
+        }
+        h1{
+            color: brown;font-size: 79px;
+        }
+        h2{
+            color: black; font-size: 50px;
+        }
+        p{
+            font-size: 30px; background-color: blue;
+        }
+        .class1{
+            font-size: 25px;background-color: blueviolet;
+        }
+        @media only screen and (max-width:480){
+            .container{
+                width: 100%; color: antiquewhite; background-color: magenta;
+            }
+            .banner{
+                width: 100%; padding: 5px; background-color: darkorange;
+            }
+            .nar-bar{
+                width: 100%; background-color: darkgreen; color: darkolivegreen;
+            }
+            .container h1{
+                color: brown; font-size: 72px; text-align: center;
+            }
+        }
